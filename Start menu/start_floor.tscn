@@ -1,0 +1,364 @@
+[gd_scene load_steps=3 format=3 uid="uid://bh8gtnl8c84v2"]
+
+[ext_resource type="Texture2D" uid="uid://ddkqtejb0stft" path="res://graphics/tilesets/wood_tile.png" id="1_mt5y5"]
+[ext_resource type="Texture2D" uid="uid://csugfx6va03lu" path="res://graphics/ui/black_fade.png" id="2_68dml"]
+
+[node name="Parchet" type="Sprite2D"]
+position = Vector2(56, 53)
+scale = Vector2(0.0462349, 0.0462349)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet2" type="Sprite2D" parent="."]
+position = Vector2(-0.00012207, 1968.21)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet3" type="Sprite2D" parent="."]
+position = Vector2(0, 3950)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet4" type="Sprite2D" parent="."]
+position = Vector2(0, 5900)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet5" type="Sprite2D" parent="."]
+position = Vector2(0, 7850)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet6" type="Sprite2D" parent="."]
+position = Vector2(0, 9800)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet7" type="Sprite2D" parent="."]
+position = Vector2(0, 11750)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet8" type="Sprite2D" parent="."]
+position = Vector2(1949.79, 1962.79)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet14" type="Sprite2D" parent="."]
+position = Vector2(1946.58, -0.000101089)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet9" type="Sprite2D" parent="."]
+position = Vector2(1949.79, 3944.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet10" type="Sprite2D" parent="."]
+position = Vector2(1949.79, 5894.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet11" type="Sprite2D" parent="."]
+position = Vector2(1949.79, 7844.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet12" type="Sprite2D" parent="."]
+position = Vector2(1949.79, 9794.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet13" type="Sprite2D" parent="."]
+position = Vector2(1949.79, 11744.6)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet15" type="Sprite2D" parent="."]
+position = Vector2(3899.58, 1957.37)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet16" type="Sprite2D" parent="."]
+position = Vector2(3896.37, -5.41948)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet17" type="Sprite2D" parent="."]
+position = Vector2(3899.58, 3939.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet18" type="Sprite2D" parent="."]
+position = Vector2(3899.58, 5889.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet19" type="Sprite2D" parent="."]
+position = Vector2(3899.58, 7839.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet20" type="Sprite2D" parent="."]
+position = Vector2(3899.58, 9789.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet21" type="Sprite2D" parent="."]
+position = Vector2(3899.58, 11739.2)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet22" type="Sprite2D" parent="."]
+position = Vector2(5846.16, 1962.79)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet23" type="Sprite2D" parent="."]
+position = Vector2(5842.95, -0.000101089)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet24" type="Sprite2D" parent="."]
+position = Vector2(5846.16, 3944.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet25" type="Sprite2D" parent="."]
+position = Vector2(5846.16, 5894.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet26" type="Sprite2D" parent="."]
+position = Vector2(5846.16, 7844.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet27" type="Sprite2D" parent="."]
+position = Vector2(5846.16, 9794.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet28" type="Sprite2D" parent="."]
+position = Vector2(5846.16, 11744.6)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet29" type="Sprite2D" parent="."]
+position = Vector2(7795.95, 1957.37)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet30" type="Sprite2D" parent="."]
+position = Vector2(7792.74, -5.41948)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet31" type="Sprite2D" parent="."]
+position = Vector2(7795.95, 3939.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet32" type="Sprite2D" parent="."]
+position = Vector2(7795.95, 5889.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet33" type="Sprite2D" parent="."]
+position = Vector2(7795.95, 7839.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet34" type="Sprite2D" parent="."]
+position = Vector2(7795.95, 9789.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet35" type="Sprite2D" parent="."]
+position = Vector2(7795.95, 11739.2)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet36" type="Sprite2D" parent="."]
+position = Vector2(9739.33, 1962.79)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet37" type="Sprite2D" parent="."]
+position = Vector2(9736.12, -0.000101089)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet38" type="Sprite2D" parent="."]
+position = Vector2(9739.33, 3944.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet39" type="Sprite2D" parent="."]
+position = Vector2(9739.33, 5894.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet40" type="Sprite2D" parent="."]
+position = Vector2(9739.33, 7844.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet41" type="Sprite2D" parent="."]
+position = Vector2(9739.33, 9794.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet42" type="Sprite2D" parent="."]
+position = Vector2(9739.33, 11744.6)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet43" type="Sprite2D" parent="."]
+position = Vector2(11689.1, 1957.37)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet44" type="Sprite2D" parent="."]
+position = Vector2(11685.9, -5.41948)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet45" type="Sprite2D" parent="."]
+position = Vector2(11689.1, 3939.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet46" type="Sprite2D" parent="."]
+position = Vector2(11689.1, 5889.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet47" type="Sprite2D" parent="."]
+position = Vector2(11689.1, 7839.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet48" type="Sprite2D" parent="."]
+position = Vector2(11689.1, 9789.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet49" type="Sprite2D" parent="."]
+position = Vector2(11689.1, 11739.2)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet50" type="Sprite2D" parent="."]
+position = Vector2(13635.7, 1962.79)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet51" type="Sprite2D" parent="."]
+position = Vector2(13632.5, -0.000101089)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet52" type="Sprite2D" parent="."]
+position = Vector2(13635.7, 3944.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet53" type="Sprite2D" parent="."]
+position = Vector2(13635.7, 5894.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet54" type="Sprite2D" parent="."]
+position = Vector2(13635.7, 7844.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet55" type="Sprite2D" parent="."]
+position = Vector2(13635.7, 9794.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet56" type="Sprite2D" parent="."]
+position = Vector2(13635.7, 11744.6)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet57" type="Sprite2D" parent="."]
+position = Vector2(15585.5, 1957.37)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet58" type="Sprite2D" parent="."]
+position = Vector2(15582.3, -5.41948)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet59" type="Sprite2D" parent="."]
+position = Vector2(15585.5, 3939.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet60" type="Sprite2D" parent="."]
+position = Vector2(15585.5, 5889.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet61" type="Sprite2D" parent="."]
+position = Vector2(15585.5, 7839.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet62" type="Sprite2D" parent="."]
+position = Vector2(15585.5, 9789.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet63" type="Sprite2D" parent="."]
+position = Vector2(15585.5, 11739.2)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet64" type="Sprite2D" parent="."]
+position = Vector2(17525.7, 1957.37)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet65" type="Sprite2D" parent="."]
+position = Vector2(17522.4, -5.41948)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet66" type="Sprite2D" parent="."]
+position = Vector2(17525.7, 3939.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet67" type="Sprite2D" parent="."]
+position = Vector2(17525.7, 5889.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet68" type="Sprite2D" parent="."]
+position = Vector2(17525.7, 7839.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet69" type="Sprite2D" parent="."]
+position = Vector2(17525.7, 9789.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet70" type="Sprite2D" parent="."]
+position = Vector2(17525.7, 11739.2)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet71" type="Sprite2D" parent="."]
+position = Vector2(19472.2, 1962.79)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet72" type="Sprite2D" parent="."]
+position = Vector2(19469, -0.000101089)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet73" type="Sprite2D" parent="."]
+position = Vector2(19472.2, 3944.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet74" type="Sprite2D" parent="."]
+position = Vector2(19472.2, 5894.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet75" type="Sprite2D" parent="."]
+position = Vector2(19472.2, 7844.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet76" type="Sprite2D" parent="."]
+position = Vector2(19472.2, 9794.58)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet77" type="Sprite2D" parent="."]
+position = Vector2(19472.2, 11744.6)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet78" type="Sprite2D" parent="."]
+position = Vector2(21422, 1957.37)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet79" type="Sprite2D" parent="."]
+position = Vector2(21418.8, -5.41948)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet80" type="Sprite2D" parent="."]
+position = Vector2(21422, 3939.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet81" type="Sprite2D" parent="."]
+position = Vector2(21422, 5889.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet82" type="Sprite2D" parent="."]
+position = Vector2(21422, 7839.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet83" type="Sprite2D" parent="."]
+position = Vector2(21422, 9789.16)
+texture = ExtResource("1_mt5y5")
+
+[node name="Parchet84" type="Sprite2D" parent="."]
+position = Vector2(21422, 11739.2)
+texture = ExtResource("1_mt5y5")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(19314.4, 5818.12)
+rotation = 3.14159
+scale = Vector2(6.7145, 8.60605)
+texture = ExtResource("2_68dml")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(11260.4, -829.572)
+rotation = 1.5708
+scale = Vector2(0.521597, 15.5842)
+texture = ExtResource("2_68dml")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(11290.2, 12587.9)
+rotation = -1.5708
+scale = Vector2(0.521597, 15.5842)
+texture = ExtResource("2_68dml")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(-843.519, 5890.18)
+scale = Vector2(0.521597, 8.82126)
+texture = ExtResource("2_68dml")

@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://mbv8trr2qlug"]
+
+[ext_resource type="PackedScene" uid="uid://bh8gtnl8c84v2" path="res://Start menu/start_floor.tscn" id="1_2d3xq"]
+[ext_resource type="PackedScene" uid="uid://bbs0ejtc0w7a0" path="res://Character/hero.tscn" id="2_lv206"]
+
+[node name="StartRoom" type="Node2D"]
+
+[node name="Parchet" parent="." instance=ExtResource("1_2d3xq")]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_lv206")]
+position = Vector2(492, 345)
