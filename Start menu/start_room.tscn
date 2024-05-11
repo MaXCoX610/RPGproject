@@ -1,11 +1,38 @@
-[gd_scene load_steps=3 format=3 uid="uid://mbv8trr2qlug"]
+[gd_scene load_steps=7 format=3 uid="uid://mbv8trr2qlug"]
 
 [ext_resource type="PackedScene" uid="uid://bh8gtnl8c84v2" path="res://Start menu/start_floor.tscn" id="1_2d3xq"]
+[ext_resource type="Script" path="res://Start menu/start_room.gd" id="1_pe1mt"]
 [ext_resource type="PackedScene" uid="uid://bbs0ejtc0w7a0" path="res://Character/hero.tscn" id="2_lv206"]
+[ext_resource type="PackedScene" uid="uid://bvm2xsxmf8r0e" path="res://Start menu/Buttons/continue.tscn" id="4_q7oip"]
+[ext_resource type="PackedScene" uid="uid://cy821355tidvr" path="res://Start menu/Buttons/new_game.tscn" id="5_uc7jl"]
+[ext_resource type="PackedScene" uid="uid://dfvic76tog33d" path="res://Start menu/Buttons/settings.tscn" id="6_rqkv8"]
 
 [node name="StartRoom" type="Node2D"]
+script = ExtResource("1_pe1mt")
 
 [node name="Parchet" parent="." instance=ExtResource("1_2d3xq")]
 
-[node name="CharacterBody2D" parent="." instance=ExtResource("2_lv206")]
-position = Vector2(492, 345)
+[node name="Buttons" type="Node2D" parent="."]
+position = Vector2(962, 345)
+
+[node name="Continue" parent="Buttons" instance=ExtResource("4_q7oip")]
+scale = Vector2(0.3, 0.3)
+
+[node name="New_Game" parent="Buttons" instance=ExtResource("5_uc7jl")]
+position = Vector2(0, 100)
+scale = Vector2(0.3, 0.3)
+
+[node name="Settings" parent="Buttons" instance=ExtResource("6_rqkv8")]
+position = Vector2(-8, 200)
+scale = Vector2(0.3, 0.3)
+
+[node name="CharacterBody2D" parent="Buttons" instance=ExtResource("2_lv206")]
+position = Vector2(-543, -3)
+scale = Vector2(0.6, 0.6)
+
+[node name="Camera2D" type="Camera2D" parent="Buttons/CharacterBody2D"]
+zoom = Vector2(1.7, 1.7)
+limit_left = 0
+limit_top = 0
+limit_bottom = 650
+position_smoothing_enabled = true

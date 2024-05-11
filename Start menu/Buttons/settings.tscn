@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfvic76tog33d"]
+
+[ext_resource type="Texture2D" uid="uid://bup2v8klcjujf" path="res://Start menu/Start_Menu_assets/Settings.png" id="1_ww8q5"]
+
+[node name="Settings" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ww8q5")
