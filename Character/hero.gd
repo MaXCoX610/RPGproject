@@ -3,7 +3,7 @@ extends CharacterBody2D
 var sprite: Sprite2D
 @onready var animation = $AnimationPlayer
 
-func _process(delta):
+func _process(_delta):
 	var direction = Input.get_vector("left", "right", "up", "down")
 	velocity = direction * 200
 	move_and_slide()
